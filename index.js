@@ -223,4 +223,4 @@ app.post("/login", async (req, res) => {
 app.get("", (req, res) => {
   res.send("Ashik");
 });
-app.listen(4000 || process.env.PORT);
+app.listen(process.env.PORT || 4000);
